@@ -1,17 +1,22 @@
+// Save all options.
 function saveOptions() {
   var server = $("#serverUrl").val();
+  var serverType = $("#serverType").val();
 
-  // Save settings
   chrome.storage.sync.set({
-    serverUrl: server
+    serverUrl: server,
+    serverType: serverType
   });
 }
 
+// Restore saved options.
 function restoreOptions() {
   chrome.storage.sync.get({
-    serverUrl: '--none--'
+    serverUrl: '',
+    serverType: ''
   }, function(items) {
     $("#serverUrl").val(items.serverUrl);
+    $("#serverType").val(items.serverType);
   });
 }
 
