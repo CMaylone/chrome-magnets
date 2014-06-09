@@ -1,15 +1,9 @@
 {
   "manifest_version": 2,
-
   "name": "Chrome Magnets",
-  "description": "Allows users to route magnetic links or .torrents to web service calls.",
   "version" : "0.0.1",
-  "permissions" : [
-    "tabs",
-    "contextMenus",
-    "storage"
-  ],
 
+  "description": "Allows users to route magnetic links or .torrents to web service calls.",
   "icons": {
     "16": "img/torrent_16x16.png",
     "48": "img/torrent_48x48.png",
@@ -22,5 +16,10 @@
     ]
   },
 
-  "options_page" : "options.html"
+  "options_page" : "options.html",
+
+  "permissions" : [
+    "contextMenus",
+    "storage"
+  ]
 }
