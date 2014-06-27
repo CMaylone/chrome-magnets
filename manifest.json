@@ -16,6 +16,12 @@
     ]
   },
 
+  "browser_action": {
+    "default_title": "Chrome Magnets",
+    "default_icon": "img/torrent_48x48.png",
+    "default_popup": "options.html"
+  },
+
   "options_page" : "options.html",
 
   "permissions" : [
