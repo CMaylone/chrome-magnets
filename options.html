@@ -13,15 +13,29 @@
     <div class="panel-body" style="width:400px">
       <div class="form-group">
         <label for="serverUrl">Server URL</label>
-        <input type="url" class="form-control" id="serverUrl" placehodler="Bittorrent Server Url"/>
+        <input required type="url" class="form-control" id="serverUrl" placehodler="Bittorrent Server Url"/>
       </div>
       <div class="form-group">
         <label for="serverType">Bittorrent Server Type</label>
-        <select class="form-control" id="serverType">
+        <select required class="form-control" id="serverType">
+          <option value="">--- Select Type of Torrent Server ---</option>
+          <option value="custom">qBittorrent</option>
           <option value="qbittorrent">qBittorrent</option>
-          <option value="transmission">Transmission</option>
-          <option value="utorrent">uTorrent</option>
+          <!--<option value="transmission">Transmission</option>-->
+          <!--<option value="utorrent">uTorrent</option>-->
         </select>
+      </div>
+
+      <!--Define custom server type-->
+      <div id="customServerContainer" class="hidden">
+        <div class="form-group">
+          <label for="customPath">Custom Path</label>
+          <input type="text" class="form-control" id="customPath" />
+        </div>
+        <div class="form-group">
+          <label for="customPath">Custom Path</label>
+          <input type="text" class="form-control" id="customPath" />
+        </div>
       </div>
 
       <div class="form-group">
@@ -30,7 +44,7 @@
     </div>
   </div>
 
-  <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
-  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/vendor/jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="js/vendor/bootstrap.min.js" type="text/javascript"></script>
   <script src="js/options.js" type="text/javascript"></script>
 </body>

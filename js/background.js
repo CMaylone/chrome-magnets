@@ -1,14 +1,3 @@
-// chrome.webRequest.onBeforeRequest.addListener(
-//   function(info) {
-//     if (info.url.indexOf('.torrent') != -1) {
-//       console.log('Found Torrent');
-//       return {cancel: true};
-//     }
-//   },
-//   {urls: ["<all_urls>"]},
-//   ["blocking"]
-// );
-
 chrome.contextMenus.create({
   id:'send torrent',
   title: "Send torrent to server",
