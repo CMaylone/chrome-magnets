@@ -16,7 +16,7 @@ Chrome magnets is a simple Chrome extension that will forward .torrent or magnet
 2. Define `Sever Url` and `Bittorrent Server Type`.
 3. Click `Save`.
 
-## How to use.
+## How to use
 1. Right-click a .torrent or magnet link.
 2. Click `Send to (torrent/magnet) to server`.
 
