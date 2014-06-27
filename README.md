@@ -1,14 +1,14 @@
 #Chrome Magnets
 
-Chrome magnets is a simple Chrome extension that will forward .torrent or magnet links to your personal torrent server of choice. All of these is done unobtrusively by right-clicking appropriate links/magnets.
+Chrome magnets is a simple Chrome extension that will forward .torrent or magnet links to your personal torrent server of choice. All of this is done unobtrusively by right-clicking appropriate links/magnets.
 
 ## Installation
-1. Depending on the torrent server, their web API  needs to exposed the target computer. See their respective documentation on how to do this.
-2. Since this is currnet in development, pull the code.
-3. In Chrome, go to `Menu --> Tools --> Extensions`
+1. Depending on the torrent server, their web API  needs to exposed on target computer. See their respective documentation on how to do this.
+2. Since this is currently in development, clone the repo.
+3. In Chrome, go to `Menu --> Tools --> Extensions`.
 4. Check [x] Developer Mode in the upper right.
 5. Click `Load unpacked extension...`
-6. Select the folder where you just pulled the code.
+6. Select the folder where you just cloned the code.
 7. The extension should now be visible in your extensions list. Make sure it is enabled.
 
 ## Set-up
