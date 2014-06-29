@@ -26,6 +26,8 @@
 
   "permissions" : [
     "contextMenus",
-    "storage"
+    "storage",
+    "http://*/*",
+    "https://*/*"
   ]
 }
